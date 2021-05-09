@@ -1,6 +1,6 @@
 package completecorejavacourse.Strings;
 import java.util.Scanner;
-public class String14 {
+public class UniqueElementsInStrings {
 
 	public static void main(String[] args)
 	{

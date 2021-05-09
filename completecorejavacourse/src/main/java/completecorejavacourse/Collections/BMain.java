@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class BMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Branch> listOfBranch = new ArrayList<>();
+		ArrayList<Branch> listOfBranch = new ArrayList<Branch>();
 		Branch B= new Branch();
 		Branch B1= new Branch(1,"Rajendra");
 		Branch B2= new Branch(2,"Psychoo");

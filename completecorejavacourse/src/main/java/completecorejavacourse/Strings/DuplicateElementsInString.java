@@ -1,6 +1,6 @@
 package completecorejavacourse.Strings;
 import java.util.Scanner;
-public class String5 {
+public class DuplicateElementsInString {
 
 	public static void main(String[] args)
 	{

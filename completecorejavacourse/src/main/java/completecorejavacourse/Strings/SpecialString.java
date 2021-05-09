@@ -1,6 +1,6 @@
 package completecorejavacourse.Strings;
 import java.util.Scanner;
-public class String8 {
+public class SpecialString {
 
 	public static void main(String[] args)
 	{

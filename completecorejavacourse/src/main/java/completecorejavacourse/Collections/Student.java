@@ -1,3 +1,5 @@
+package completecorejavacourse.Collections;
+
 public class Student 
 {
 	private int id;

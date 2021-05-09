@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class EMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Employee> listOfEmployee = new ArrayList<>();
+		ArrayList<Employee> listOfEmployee = new ArrayList<Employee>();
 		Employee E= new Employee();
 		Employee E1= new Employee(1,"Rajendra",3,true,"SE");
 		Employee E2= new Employee(2,"Psychoo",4,false,"SE");

@@ -1,6 +1,6 @@
 package completecorejavacourse.Strings;
 import java.util.Scanner;
-public class String9 {
+public class ContainsUsageInString {
 
 	public static void main(String[] args)
 	{

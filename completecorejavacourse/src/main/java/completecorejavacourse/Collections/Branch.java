@@ -1,3 +1,5 @@
+package completecorejavacourse.Collections;
+
 public class Branch 
 {
 	private int id;

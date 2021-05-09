@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class GMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Gender> listOfGender = new ArrayList<>();
+		ArrayList<Gender> listOfGender = new ArrayList<Gender>();
 		Gender G= new Gender();
 		Gender G1= new Gender("Rajendra","FeMale");
 		Gender G2= new Gender("Psychoo","Female");

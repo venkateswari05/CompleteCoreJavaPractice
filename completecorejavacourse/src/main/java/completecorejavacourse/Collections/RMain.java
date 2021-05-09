@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class RMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Role> listOfRole = new ArrayList<>();
+		ArrayList<Role> listOfRole = new ArrayList<Role>();
 		Role r= new Role();
 		Role r1= new Role(1,"Rajendra",true);
 		Role r2= new Role(2,"Psychoo",false);

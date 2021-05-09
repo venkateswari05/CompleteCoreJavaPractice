@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Student> listOfStudent = new ArrayList<>();
+		ArrayList<Student> listOfStudent = new ArrayList<Student>();
 		Student s= new Student();
 		Student s1= new Student(1,"Rajendra","cse");
 		Student s2= new Student(2,"Psychoo","cse");

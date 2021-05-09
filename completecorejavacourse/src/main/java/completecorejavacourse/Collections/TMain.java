@@ -1,10 +1,12 @@
+package completecorejavacourse.Collections;
+
 import java.util.ArrayList;
 
 public class TMain {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Teacher> listOfTeacher = new ArrayList<>();
+		ArrayList<Teacher> listOfTeacher = new ArrayList<Teacher>();
 		Teacher T= new Teacher();
 		Teacher T1= new Teacher(1,"Rajendra","English");
 		Teacher T2= new Teacher(2,"Psychoo","Telugu");
