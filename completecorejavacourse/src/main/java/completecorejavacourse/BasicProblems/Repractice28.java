@@ -1,0 +1,31 @@
+package completecorejavacourse.BasicProblems;
+
+public class Repractice28 {
+
+	public static void main(String[] args) {
+		Pattern(7);
+		Pattern(5);
+	}
+
+	private static void Pattern(int n) {
+		int ascii=65;
+		for(int i=1;i<=n;i++)
+		{
+			if(i!=1)
+			{
+				ascii=ascii+2;
+			}
+			for(int j=0;j<n-i;j++)
+			{
+				System.out.print(" ");
+			}
+			for (int j=0;j<(i*2)-1;j++)
+			{
+				System.out.print((char)ascii);
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
