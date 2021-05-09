@@ -1,6 +1,6 @@
 package completecorejavacourse.Strings;
 import java.util.Scanner;
-public class String3 {
+public class StringExample {
 
 	public static void main(String[] args)
 	{
