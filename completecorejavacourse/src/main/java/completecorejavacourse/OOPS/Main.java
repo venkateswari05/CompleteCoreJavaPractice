@@ -26,9 +26,9 @@ public class Main
 		emp.setisfulltime(false);
 		System.out.println(emp);*/
 		
-		/*Gender gender=new Gender("Transgender");
+		Gender gender=new Gender("Transgender");
 		Person per=new Person(1, "Rajendra", 30,5,60,false,gender);
-		System.out.println(per);*/
+		System.out.println(per);
 			
 	}
 }

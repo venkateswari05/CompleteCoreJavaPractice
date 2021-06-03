@@ -15,8 +15,7 @@ IIIIIIIII
 public class Pattern27 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		int n=5;
 		int ascii=65;
 		for(int i=1;i<=n;i++)
 		{

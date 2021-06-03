@@ -15,8 +15,7 @@ public class Pattern8 {
 
 	public static void main(String[] args)
 	{
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		int n=4;
 		for(int i=1;i<=n;i++)
 		{
 			for(int j=0;j<=n-i;j++)

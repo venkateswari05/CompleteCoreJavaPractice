@@ -9,6 +9,7 @@ public class Individual {
 		int rem,res=0;
 		while(n>9)
 		{
+			res=0;
 			while(n>0)
 			{
 				rem=n%10;

@@ -20,10 +20,9 @@ public class Pattern4 {
 	public static void main(String[] args)
 	{
 	
-		Scanner sc=new Scanner(System.in);
-		int n,i,j;
-		System.out.println("enter a number");
-		n=sc.nextInt();
+		
+		int n=5,i,j;
+		
 		for(i=1;i<=n;i++)
 		{
 			for(j=0;j<i;j++)

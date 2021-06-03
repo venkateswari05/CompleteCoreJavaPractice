@@ -13,7 +13,7 @@ public class Person
 	{
 	
 	}
-	public Person(int id,String name,int age,float height,int weight,boolean isalive,Gender gender)
+	public Person(int id,String name,int age,int weight,float height,boolean isalive,Gender gender)
 	{
 		this.id=id;
 		this.name=name;

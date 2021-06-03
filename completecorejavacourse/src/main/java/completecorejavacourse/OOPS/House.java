@@ -24,9 +24,12 @@ public class House
 	{
 		this.name=name;
 	}
-	public void setnumofrooms(Hall hall)
-	{
-		this.hall=hall;
+	
+	public Hall getHall() {
+		return hall;
+	}
+	public void setHall(Hall hall) {
+		this.hall = hall;
 	}
 	public int getid()
 	{
@@ -36,10 +39,7 @@ public class House
 	{
 		return this.name;
 	}
-	public Hall hall()
-	{
-		return this.hall;
-	}
+	
 	public String toString()
 	{
 		return this.id +" " + this.name + " " + this.hall;

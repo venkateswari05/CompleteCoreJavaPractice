@@ -39,17 +39,7 @@ public class Teacher
 	{
 		return subject;
 	}
-	public boolean equals(Teacher t)
-	{
-		if(this.id==t.id && this.name==t.name && this.subject==t.subject)
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
-	}
+
 	public String toString()
 	{
 		return this.id +" " + this.name + " " + this.subject;

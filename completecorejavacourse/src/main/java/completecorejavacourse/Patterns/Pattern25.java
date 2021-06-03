@@ -14,8 +14,7 @@ import java.util.Scanner;
 public class Pattern25 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		int n=4;
 		int ascii=65;
 		for(int i=1;i<=n;i++)
 		{

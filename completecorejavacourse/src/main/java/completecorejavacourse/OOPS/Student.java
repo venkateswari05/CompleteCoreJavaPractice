@@ -40,18 +40,7 @@ public class Student
 	{
 		this.branch=branch;
 	}
-	public boolean equals(Student s)
-	{
-		if(!(this.id==s.id))
-		{
-			return false;
-		}
-		if(!(this.name==s.name))
-		{
-			return false;
-		}
-		return true;
-	}
+	
 	public String toString()
 	{
 		return this.id +" " + this.name + " " + this.branch;
